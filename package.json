@@ -1,0 +1,60 @@
+{
+  "name": "senior-frontend-engineer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.34.9",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "perf": "node scripts/perf.mjs",
+    "typecheck": "turbo typecheck",
+    "test": "turbo test",
+    "format": "prettier --write .",
+    "export": "bash scripts/export.sh",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@tanstack/eslint-plugin-query": "^5.107.1",
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.8",
+    "@types/node": "^22",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.14.0",
+    "jsdom": "^31.0.0",
+    "prettier": "^3.9.10",
+    "turbo": "^2.11.10",
+    "typescript": "~6.0.0",
+    "typescript-eslint": "^8.72.1",
+    "vitest": "^5.1.0",
+    "vitest-axe": "^0.1.0"
+  },
+  "intent": {
+    "skills": [
+      "@tanstack/react-router#compositions/router-query",
+      "@tanstack/react-router#react-router",
+      "@tanstack/router-core#router-core/auth-and-guards",
+      "@tanstack/router-core#router-core/code-splitting",
+      "@tanstack/router-core#router-core/data-loading",
+      "@tanstack/router-core#router-core/navigation",
+      "@tanstack/router-core#router-core/not-found-and-errors",
+      "@tanstack/router-core#router-core/path-params",
+      "@tanstack/router-core#router-core/search-params",
+      "@tanstack/router-core#router-core/ssr",
+      "@tanstack/router-core#router-core/type-safety",
+      "@tanstack/router-plugin#router-plugin"
+    ]
+  }
+}

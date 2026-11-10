@@ -1,0 +1,11 @@
+{
+  "name": "@app/config",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./eslint": "./eslint.js",
+    "./tsconfig.react.json": "./tsconfig.react.json",
+    "./tsconfig.base.json": "./tsconfig.base.json"
+  }
+}

@@ -1,0 +1,4 @@
+@import "@app/shared/styles/globals.css";
+@source "../../../packages/shared/src";
+@source "../../../packages/users/src";
+@source "../../../packages/todos/src";

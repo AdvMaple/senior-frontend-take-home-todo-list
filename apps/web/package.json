@@ -1,0 +1,35 @@
+{
+  "name": "@app/web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc --noEmit",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@app/shared": "workspace:*",
+    "@app/todos": "workspace:*",
+    "@app/users": "workspace:*",
+    "@tanstack/react-query": "^5.107.1",
+    "@tanstack/react-query-devtools": "^5.107.1",
+    "@tanstack/react-router": "^1.170.46",
+    "jotai": "^3.0.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tailwindcss": "^4.3.5",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@app/config": "workspace:*",
+    "@tailwindcss/vite": "^4.3.5",
+    "@tanstack/react-router-devtools": "^1.167.3",
+    "@tanstack/router-plugin": "^1.169.0",
+    "@vitejs/plugin-react": "^6.2.1",
+    "vite": "^8.3.6"
+  }
+}

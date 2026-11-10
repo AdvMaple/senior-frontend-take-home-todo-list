@@ -1,0 +1,7 @@
+{
+  "extends": "@app/config/tsconfig.react.json",
+  "compilerOptions": {
+    "paths": { "@app/shared/*": ["./src/*"] }
+  },
+  "include": ["src", "vitest.config.ts"]
+}

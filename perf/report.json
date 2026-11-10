@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-11-08T17:46:25.987Z",
+  "nodeVersion": "v22.22.1",
+  "buildSuccess": true,
+  "budgetPass": true,
+  "pass": true,
+  "artifacts": [
+    {
+      "file": "index-DIHh9K9e.js",
+      "gzipBytes": 71209,
+      "gzipKiB": 69.54,
+      "budget": "application-core",
+      "budgetKiB": 150,
+      "pass": true
+    },
+    {
+      "file": "preload-helper-C-yMKxHN.js",
+      "gzipBytes": 23559,
+      "gzipKiB": 23.01,
+      "budget": "route-chunk",
+      "budgetKiB": 30,
+      "pass": true
+    },
+    {
+      "file": "rolldown-runtime-WkwZ5CU-.js",
+      "gzipBytes": 368,
+      "gzipKiB": 0.36,
+      "budget": "route-chunk",
+      "budgetKiB": 30,
+      "pass": true
+    },
+    {
+      "file": "src-DmXz7zXl.js",
+      "gzipBytes": 100707,
+      "gzipKiB": 98.35,
+      "budget": "application-core",
+      "budgetKiB": 150,
+      "pass": true
+    },
+    {
+      "file": "todos-3sn8JMoq.js",
+      "gzipBytes": 4387,
+      "gzipKiB": 4.28,
+      "budget": "route-chunk",
+      "budgetKiB": 30,
+      "pass": true
+    },
+    {
+      "file": "users._userId-C1nZqoeO.js",
+      "gzipBytes": 402,
+      "gzipKiB": 0.39,
+      "budget": "route-chunk",
+      "budgetKiB": 30,
+      "pass": true
+    },
+    {
+      "file": "users.new-CHo4Iws6.js",
+      "gzipBytes": 350,
+      "gzipKiB": 0.34,
+      "budget": "route-chunk",
+      "budgetKiB": 30,
+      "pass": true
+    }
+  ]
+}

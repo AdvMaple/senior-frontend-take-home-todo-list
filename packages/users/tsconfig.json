@@ -1,0 +1,4 @@
+{
+  "extends": "@app/config/tsconfig.react.json",
+  "include": ["src", "vitest.config.ts", "../shared/src/test/setup.ts", "../shared/src/test/vitest-axe.d.ts"]
+}
